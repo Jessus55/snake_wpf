@@ -1,0 +1,10 @@
+﻿<Window x:Name="menu_window" x:Class="Snake_mond.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="312.468" Width="421.74" ResizeMode="NoResize">
+    <Grid Background="Black" Margin="0,0,-6,-8">
+        <Image Source="/snake.png" Height="306" HorizontalAlignment="Left" Margin="-4,-18,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="432" />
+        <Button IsDefault="True" Content="Играть" Height="80" HorizontalAlignment="Left" Margin="235,114,0,0" Name="button1" VerticalAlignment="Top" Width="175" FontFamily="Forte" FontSize="40" Click="button1_Click" BorderBrush="#4C707070" Background="#05DDDDDD" Foreground="#FF18B000"/>
+        <Button Content="Закрыть" Height="80" HorizontalAlignment="Left" Margin="10,114,0,0" Name="button2" VerticalAlignment="Top" Width="169" FontSize="32" Click="button2_Click" Background="#03DDDDDD" Foreground="#FFD63A0C" BorderBrush="#4D707070" />
+    </Grid>
+</Window>
